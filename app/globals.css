@@ -1,0 +1,7 @@
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:linear-gradient(180deg,#e9f3ff 0%, #fff7e0 100%);color:#222;font-family:ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial}
+#__next, body > div:first-child, body > main {height:100%}
+.canvas-wrap{position:fixed; inset:0}
+.overlay{position:fixed;left:16px;bottom:16px;background:rgba(255,255,255,0.85);backdrop-filter: blur(6px);border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.12);padding:10px 14px;font-size:12px}
+.overlay strong{display:block;font-size:13px}
